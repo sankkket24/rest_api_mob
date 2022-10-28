@@ -7,20 +7,21 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/caption_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Caption !!!!" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/caption_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="caption!" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/rendered_img"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
+
 </LinearLayout>
